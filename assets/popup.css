@@ -1,0 +1,36 @@
+.popupbox{    width: 400px;
+    height: 200px;
+    border: 1px solid #ccc;}
+.popupbox input {    width: 97%;
+    height: 45px;
+    border: 1px solid #ccc;
+    margin: 5px;}	
+.popupbox h3{ text-align:center;}
+	
+.popupbox button{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    margin: 10px 97px;
+    font-weight: bold;
+}	
+
+.disnone{display:none !important} 
+.colred{color:red !important} 
+
+.tokensuccess{
+    padding: 15px;
+    text-align: center;
+}
+
+.tokensuccess h1{color:green}
+
+
+.registrationpage p{
+		
+		    text-align: center;
+    padding: 0px;
+    margin: 4px;
+    color: red;
+    font-weight: bold;
+	}
