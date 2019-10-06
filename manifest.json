@@ -1,0 +1,31 @@
+{
+"manifest_version":2,
+"name":"Aladin final exteiong",
+"description":"Aladin practices",
+"version":"0.1",
+"browser_action":{
+	"default_popup":"index.html"
+},
+"permissions": [
+"tabs",
+"storage",
+"https://www.aliexpress.com/*",
+"https://ealadinexpress.frzf7.com/*",
+"https://aeproductsourcesite.alicdn.com/*",
+"http://localhost/adminpanel/*"
+],
+ "background": {
+    "scripts": ["assets/jquery.js","background.js"],
+    "persistent": false
+},
+"content_scripts": [
+   {
+     "matches": ["https://www.aliexpress.com/*"], 
+     "js": ["assets/jquery.js","assets/selectstyle.js","frzf7.js","chromelib.js"],
+	  "css": ["assets/frzf7.css","assets/selectstyle.css"]
+   }
+ ]
+
+
+
+}
